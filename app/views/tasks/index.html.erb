@@ -1,5 +1,12 @@
 <p id="notice"><%= notice %></p>
 
+<h2>ユーザーランキング</h2>
+<ul>
+  <% @top_users.each do |user| %>
+    <li><%= user.email %> - <%= user.tasks_count %> tasks</li>
+  <% end %>
+</ul>
+
 <h1>Tasks</h1>
 
 <table>

@@ -5,6 +5,11 @@ class TasksController < ApplicationController
   # GET /tasks or /tasks.json
   def index
     @tasks = current_user.tasks
+    @top_users = User.joins(:tasks)
+                      .select('users.*, COUNT(tasks.id) AS tasks_count')
+                      .group('users.id')
+                      .order('tasks_count DESC')
+                      .limit(3)
   end
 
   # GET /tasks/1 or /tasks/1.json
