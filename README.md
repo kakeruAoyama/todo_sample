@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://zenn.dev/mt_sou/scraps/dad2a6e6f6625e
 
-Things you may want to cover:
+![image](https://github.com/kakeruAoyama/todo_sample/assets/64327383/8a243758-7c22-4f6d-82fd-78ac410e142c)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
